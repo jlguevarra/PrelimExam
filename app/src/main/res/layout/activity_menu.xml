@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <!-- Menu Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MENU"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"/>
+
+        <!-- Grid Layout for Buttons -->
+        <GridLayout
+            android:id="@+id/gridMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:padding="10dp"
+            android:layout_marginTop="10dp">
+
+            <!-- Profile Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnProfile"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_columnWeight="1"
+                android:text="Profile"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:layout_margin="8dp"
+                app:cornerRadius="8dp"
+                android:backgroundTint="#00704A"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+            <!-- Products Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnProducts"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_columnWeight="1"
+                android:text="Products"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:layout_margin="8dp"
+                app:cornerRadius="8dp"
+                android:backgroundTint="#00704A"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+            <!-- Orders Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnOrders"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_columnWeight="1"
+                android:text="Orders"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:layout_margin="8dp"
+                app:cornerRadius="8dp"
+                android:backgroundTint="#00704A"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+            <!-- Cart Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnCart"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_columnWeight="1"
+                android:text="Cart"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:layout_margin="8dp"
+                app:cornerRadius="8dp"
+                android:backgroundTint="#00704A"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+            <!-- Settings Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSettings"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_columnWeight="1"
+                android:text="Settings"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:layout_margin="8dp"
+                app:cornerRadius="8dp"
+                android:backgroundTint="#00704A"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+            <!-- Logout Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLogout"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_columnWeight="1"
+                android:text="Logout"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:layout_margin="8dp"
+                app:cornerRadius="8dp"
+                android:backgroundTint="#00704A"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+        </GridLayout>
+
+    </LinearLayout>
+</ScrollView>
