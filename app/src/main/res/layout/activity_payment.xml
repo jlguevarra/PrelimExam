@@ -121,21 +121,24 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Cash on Delivery"
-                android:buttonTint="@color/black"/>
+                android:buttonTint="@color/black"
+                android:textColor="@color/black"/>
 
             <RadioButton
                 android:id="@+id/radioGCash"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="GCash"
-                android:buttonTint="@color/black"/>
+                android:buttonTint="@color/black"
+                android:textColor="@color/black"/>
 
             <RadioButton
                 android:id="@+id/radioCard"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Credit/Debit Card"
-                android:buttonTint="@color/black"/>
+                android:buttonTint="@color/black"
+                android:textColor="@color/black"/>
 
         </RadioGroup>
 
