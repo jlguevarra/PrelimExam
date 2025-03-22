@@ -40,34 +40,34 @@ public class ProductDetailsActivity extends AppCompatActivity {
 
         // Set Image, Description, and Price
         switch (productName) {
-            case "Espresso":
+            case "Bioflu":
                 imgProduct.setImageResource(R.drawable.prod1);
-                txtProductDescription.setText("A strong and rich shot of pure espresso, perfect for a quick caffeine boost.");
-                price = 80.00;
-                break;
-            case "Cappuccino":
-                imgProduct.setImageResource(R.drawable.prod2);
-                txtProductDescription.setText("A classic blend of espresso, steamed milk, and frothy foam for a creamy delight.");
-                price = 120.00;
-                break;
-            case "Latte":
-                imgProduct.setImageResource(R.drawable.prod3);
-                txtProductDescription.setText("Smooth espresso mixed with steamed milk, topped with a light foam layer.");
-                price = 130.00;
-                break;
-            case "Mocha":
-                imgProduct.setImageResource(R.drawable.prod4);
-                txtProductDescription.setText("A delicious combination of espresso, chocolate syrup, and steamed milk.");
-                price = 140.00;
-                break;
-            case "Americano":
-                imgProduct.setImageResource(R.drawable.prod5);
-                txtProductDescription.setText("Espresso diluted with hot water for a smooth and balanced taste.");
+                txtProductDescription.setText("Bioflu (Phenylephrine HCI + Chlorphenamine Maleate + Paracetamol)");
                 price = 90.00;
                 break;
-            case "Macchiato":
+            case "Biogesic":
+                imgProduct.setImageResource(R.drawable.prod2);
+                txtProductDescription.setText("Biogesic Paracetamol 500mg ");
+                price = 100.00;
+                break;
+            case "Cetirizine":
+                imgProduct.setImageResource(R.drawable.prod3);
+                txtProductDescription.setText("Cetirizine hydrochloride 10mg");
+                price = 130.00;
+                break;
+            case "Neozep":
+                imgProduct.setImageResource(R.drawable.prod4);
+                txtProductDescription.setText("NEOZEP Z+ TAB X500");
+                price = 140.00;
+                break;
+            case "Medicol":
+                imgProduct.setImageResource(R.drawable.prod5);
+                txtProductDescription.setText("Ibuprofen Advance 200mg Softgel Capsule");
+                price = 70.00;
+                break;
+            case "Decolgen":
                 imgProduct.setImageResource(R.drawable.prod6);
-                txtProductDescription.setText("An espresso with a small amount of milk, offering a bold yet creamy experience.");
+                txtProductDescription.setText("Phenylephrine HCl 10mg Paracetamol 500mg Chlorphenamine maleate 2mg");
                 price = 110.00;
                 break;
             default:

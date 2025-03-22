@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    android:background="#FFFFFF"
+    android:background="#E3F2FD"
     tools:context=".CartActivity">
 
     <!-- Title -->
@@ -41,7 +41,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="16dp"
-        android:background="#F5F5F5"
+        android:background="#E3F2FD"
         android:elevation="4dp"
         android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toTopOf="@id/cartSummary"
@@ -52,7 +52,7 @@
             android:id="@+id/txtUserName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Name: John Doe"
+            android:text="Name: Eidrei Magcalas"
             android:textSize="16sp"
             android:textColor="#000000"
             android:textStyle="bold"/>
@@ -141,7 +141,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Proceed to Payment"
-        android:backgroundTint="#00704A"
+        android:backgroundTint="#74AEBA"
         android:textColor="@color/white"
         android:textSize="18sp"
         android:layout_marginTop="16dp"

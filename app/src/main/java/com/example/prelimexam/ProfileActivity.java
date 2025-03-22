@@ -19,8 +19,8 @@ public class ProfileActivity extends AppCompatActivity {
         txtUserContact = findViewById(R.id.txtUserContact);
 
         // Sample user data (Replace with real data later)
-        txtUserName.setText("John Doe");
-        txtUserEmail.setText("johndoe@example.com");
+        txtUserName.setText("Eidrei Magcalas");
+        txtUserEmail.setText("eidreimagcalas@gmail.com");
         txtUserContact.setText("+63 912 345 6789");
     }
 }

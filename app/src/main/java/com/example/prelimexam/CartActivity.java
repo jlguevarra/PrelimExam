@@ -1,11 +1,9 @@
 package com.example.prelimexam;
 
 import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.InputType;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -47,14 +45,14 @@ public class CartActivity extends AppCompatActivity {
         btnProceedPayment = findViewById(R.id.btnProceedPayment);
 
         // Default User Info
-        txtUserName.setText("Name: John Doe");
+        txtUserName.setText("Name: Eidrei Magcalas");
         txtUserContact.setText("Contact: +63 912 345 6789");
         txtUserAddress.setText("Address: 123 Main St, Manila, PH");
 
         // Sample Cart Items (Temporary)
         cartItems = new ArrayList<>();
-        cartItems.add(new CartItem("Cappuccino", 120, 1, R.drawable.prod2));
-        cartItems.add(new CartItem("Mocha", 140, 2, R.drawable.prod4));
+        cartItems.add(new CartItem("Biogesic", 100, 1, R.drawable.prod2));
+        cartItems.add(new CartItem("Neozep", 140, 2, R.drawable.prod4));
 
         // Set up RecyclerView
         recyclerCart.setLayoutManager(new LinearLayoutManager(this));

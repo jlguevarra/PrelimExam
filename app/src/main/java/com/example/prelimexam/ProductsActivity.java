@@ -21,12 +21,12 @@ public class ProductsActivity extends AppCompatActivity {
         });
 
         // Product Click Listeners
-        setProductClickListener(R.id.product1, "Espresso");
-        setProductClickListener(R.id.product2, "Cappuccino");
-        setProductClickListener(R.id.product3, "Latte");
-        setProductClickListener(R.id.product4, "Mocha");
-        setProductClickListener(R.id.product5, "Americano");
-        setProductClickListener(R.id.product6, "Macchiato");
+        setProductClickListener(R.id.product1, "Bioflu");
+        setProductClickListener(R.id.product2, "Biogesic");
+        setProductClickListener(R.id.product3, "Cetirizine");
+        setProductClickListener(R.id.product4, "Neozep");
+        setProductClickListener(R.id.product5, "Medicol");
+        setProductClickListener(R.id.product6, "Decolgen");
     }
 
     private void setProductClickListener(int productId, String productName) {

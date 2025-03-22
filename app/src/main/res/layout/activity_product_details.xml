@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:fillViewport="true"
-    android:background="#FFFFFF">
+    android:background="#E3F2FD">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -82,7 +82,7 @@
                 android:id="@+id/btnMinus"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:backgroundTint="#D32F2F"
+                android:backgroundTint="#E66868"
                 android:text="-"
                 android:textSize="22sp"
                 android:textAllCaps="false"
@@ -105,7 +105,7 @@
                 android:id="@+id/btnPlus"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:backgroundTint="#4CAF50"
+                android:backgroundTint="#80E785"
                 android:text="+"
                 android:textSize="22sp"
                 android:textAllCaps="false"
@@ -119,7 +119,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Add to Cart"
-            android:backgroundTint="#4CAF50"
+            android:backgroundTint="#009688"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:layout_marginTop="16dp"
@@ -134,7 +134,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Buy Now"
-            android:backgroundTint="#FF9800"
+            android:backgroundTint="#74AEBA"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:layout_marginTop="16dp"

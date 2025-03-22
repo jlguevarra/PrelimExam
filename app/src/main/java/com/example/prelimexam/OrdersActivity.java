@@ -33,10 +33,10 @@ public class OrdersActivity extends AppCompatActivity {
         orderList = new ArrayList<>();
 
         // Sample data (Replace with real data from database)
-        orderList.add(new OrderItem("Espresso", R.drawable.prod1, "Shipped", "2025-03-09", 80.00));
-        orderList.add(new OrderItem("Cappuccino", R.drawable.prod2, "Delivered", "2025-03-07", 120.00));
-        orderList.add(new OrderItem("Latte", R.drawable.prod3, "Processing", "2025-03-08", 130.00));
-        orderList.add(new OrderItem("Mocha", R.drawable.prod4, "Shipped", "2025-03-05", 140.00));
+        orderList.add(new OrderItem("Bioflu", R.drawable.prod1, "Shipped", "2025-03-09", 90.00));
+        orderList.add(new OrderItem("Biogesic", R.drawable.prod2, "Delivered", "2025-03-07", 100.00));
+        orderList.add(new OrderItem("Cetirizine", R.drawable.prod3, "Processing", "2025-03-08", 130.00));
+        orderList.add(new OrderItem("Neozep", R.drawable.prod4, "Shipped", "2025-03-05", 140.00));
 
         // You can fetch real order data from a database later
     }
